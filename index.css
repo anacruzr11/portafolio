@@ -1,6 +1,8 @@
 .banner {
     justify-content: center;
     align-items: center;
+    display: flex;
+    background-color: rgb(37, 35, 42);
 }
 
 .cuerpo {
@@ -25,29 +27,40 @@ h4 {
 }
 
 .Pupy {
-    background-color: rgb(215, 247, 247);
+    background-color: rgb(236, 253, 253);
     align-items: center;
     justify-content: center;
     padding: 4%;
 }
 
 .Crud {
-    background-color: rgb(247, 215, 234);
+    background-color: rgb(251, 230, 242);
     align-items: center;
     justify-content: center;
     padding: 3%;
 }
 
 .Biacol {
-    background-color: rgb(247, 247, 215);
+    background-color: rgb(251, 251, 232);
     align-items: center;
     justify-content: center;
     padding: 3%;
 }
 
 .Benatha {
-    background-color: rgb(218, 247, 215);
+    background-color: rgb(236, 255, 234);
     align-items: center;
     justify-content: center;
     padding: 3%;
+}
+
+.footertext {
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer {
+    background-color: rgb(37, 35, 42);
 }
