@@ -1,0 +1,53 @@
+.banner {
+    justify-content: center;
+    align-items: center;
+}
+
+.cuerpo {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.inicio-child {
+    margin: 6%;
+}
+
+h4 {
+    font-size: 2.5rem;
+}
+
+.Pupy {
+    background-color: rgb(215, 247, 247);
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+}
+
+.Crud {
+    background-color: rgb(247, 215, 234);
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.Biacol {
+    background-color: rgb(247, 247, 215);
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.Benatha {
+    background-color: rgb(218, 247, 215);
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
