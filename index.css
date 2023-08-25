@@ -27,28 +27,28 @@ h4 {
 }
 
 .Pupy {
-    background-color: rgb(236, 253, 253);
+    background-image: linear-gradient(180deg, rgba(236, 253, 253, 1.5), rgba(255, 255, 255, 1.5));
     align-items: center;
     justify-content: center;
     padding: 4%;
 }
 
 .Crud {
-    background-color: rgb(251, 230, 242);
+    background-image: linear-gradient(180deg, rgba(251, 230, 242, 1.5), rgba(255, 255, 255, 1.5));
     align-items: center;
     justify-content: center;
     padding: 3%;
 }
 
 .Biacol {
-    background-color: rgb(251, 251, 232);
+    background-image: linear-gradient(180deg, rgba(251, 251, 232, 1.5), rgba(255, 255, 255, 1.5));
     align-items: center;
     justify-content: center;
     padding: 3%;
 }
 
 .Benatha {
-    background-color: rgb(236, 255, 234);
+    background-image: linear-gradient(180deg, rgba(236, 255, 234, 1.5), rgba(255, 255, 255, 1.5));
     align-items: center;
     justify-content: center;
     padding: 3%;
@@ -64,3 +64,9 @@ h4 {
 .footer {
     background-color: rgb(37, 35, 42);
 }
+
+@media (max-width: 768px) {
+    .contenedor {
+      flex-direction: column;
+    }
+  }
