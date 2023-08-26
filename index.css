@@ -65,8 +65,21 @@ h4 {
     background-color: rgb(37, 35, 42);
 }
 
+.imagen-mu {
+    height: 350px;
+}
+
 @media (max-width: 768px) {
     .contenedor {
       flex-direction: column;
     }
   }
+
+@media (max-width: 768px) {
+    .imagen-mu {
+        height: 310px;
+        display: block;
+        justify-content: center;
+        align-items: center
+    }
+}
